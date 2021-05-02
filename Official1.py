@@ -44,7 +44,7 @@ c2 = "\033[0;97m""\033[1;32m""\033[0;97m"
 c3 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
-logo = ('echo -e "\n\n   SPPPPPPPPPPPPPPPP   \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPPP  \n  SPPPPPPPPPPPPPPPP  \n               Y            Y    \n-----------------------------------------------\n➣ Author : AK Yousafzai x SWEETIE\n➣ Github : https://github.com/aswad-khan\n➣ Fb Page : https://m.facebook.com/AK YOUSAFZAI OFFICIAL\n➣ Ref By : (Zubi x Ali Jutt x Xtylish Pathani)\n-----------------------------------------------" | lolcat')  
+logo = ('echo -e "\n\n       POWER FIGHTER GANG   \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n  POWER FIGHTER GANG   \n  POWER FIGHTER GANG    \n  POWER FIGHTER GANG  \n   POWER FIGHTER GANG  \n               PFG MAKERE           SP   \n         AK BRAND HERE          \n-----------------------------------------------\n➣ Author : A K Yousafzai x Sweetie Khan\n➣ Github : https://github.com/aswad-khan\n➣ Fb Page : https://m.facebook.com/AK YOUSAFZAI Official\n➣ Ref By : (R J Ahsan x Saif Kayani x Usman)\n➣ Ref By :     (Ali Jutt x Zubi x Pathani) \n-----------------------------------------------" ')  
 def reg():
     os.system('clear')
     print logo
@@ -74,12 +74,12 @@ def reg():
         print ''
         print ' \033[1;92mYour Id Is Not Approved Already '
         print ''
-        print ' \033[1;92mCopy token id and send to AK YOUSAFZAI'
+        print ' \033[1;92mCopy token id and send to Jam Shahrukh'
         print ''
         print ' \033[1;92mYour id: ' + to
         print ''
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923075170124')
+        os.system('xdg-open https://wa.me/+923053176060')
         reg()
 
 
@@ -96,7 +96,7 @@ def reg2():
     print ''
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923075170124')
+    os.system('xdg-open https://wa.me/+923053176060')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
