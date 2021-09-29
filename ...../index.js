@@ -1,7 +1,7 @@
 const express = require('express');
 const getToken = require('./token');
 const PORT = process.env.PORT || 5000;
-
+ 
 const app = express();
 app.use(express.static('public'));
 app.get('/', (req, res) => {
@@ -19,5 +19,6 @@ app.get('/auth', (req, res) => {
     res.status(400).json({ error: 400 });
   }
 });
-
+ 
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
+ 
